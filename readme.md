@@ -1,4 +1,7 @@
-## Patisserie Van Gorp
-Een mobile-first Drupal 8-9 theme.
+## @use in sass
+Een simpele eerste oefening op het gebruik van @use en @forward.
 
-Zoveel mogelijk met src en dist mappen gewerkt (gulpfile.js)
+https://sass-lang.com/documentation/at-rules/use
+https://sass-lang.com/documentation/at-rules/forward
+
+Voor Gulp gulp-sass vervangen door gulp-dart-sass
