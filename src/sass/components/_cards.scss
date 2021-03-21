@@ -1,0 +1,5 @@
+@use "../abstracts" as a;
+
+.card {
+  background-color: map-get(a.$colors, red);
+}

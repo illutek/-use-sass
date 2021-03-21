@@ -1,0 +1,62 @@
+// /////////////////////////
+// @@ TYPOGRAPHY
+// ////////////////////////
+
+@use "abstracts" as a;
+
+html {
+  font: {
+    family: a.$ff-sans;
+    weight: a.$fw-light;
+  }
+}
+
+body {
+  font-size: a.$font-size;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  margin-bottom: a.$margin-b;
+  font: {
+    family: a.$ff-titles;
+  }
+}
+
+h1 {
+  font: {
+    size: 5rem;
+  }
+
+}
+
+h2 {
+  font: {
+    size: 4rem;
+  }
+
+}
+
+h3 {
+  line-height: 1;
+  margin-bottom: a.$margin-b;
+  font: {
+    size: 2.2em;
+  }
+
+}
+
+strong {
+  font: {
+    weight: bold;
+  }
+}
+
+.text-small {
+  font: {
+    size: 1rem;
+  }
+}
