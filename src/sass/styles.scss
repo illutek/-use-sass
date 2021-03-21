@@ -1,5 +1,9 @@
+// /////////////////////////
+// @@ MAIN STYLES.SCSS
+// ////////////////////////
+
 @use "base";
 
-@use "layout/body";
+@use "layout";
 
-@use "components/cards";
+@use "components";

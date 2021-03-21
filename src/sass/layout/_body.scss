@@ -1,8 +1,12 @@
+// /////////////////////////////
+// @@ BODY - PAGE LAYOUT
+// /////////////////////////////
+
 @use "../abstracts" as a;
 
 body {
   margin: 0;
   padding: 0;
-  font-size: a.$font-size;
+  font-size: a.$ff-size;
   color: map-get(a.$colors, black);
 }
