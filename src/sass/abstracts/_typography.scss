@@ -2,17 +2,17 @@
 // @@ TYPOGRAPHY
 // ////////////////////////
 
-@use "abstracts" as a;
+@use "vars" as v;
 
 html {
   font: {
-    family: a.$ff-sans;
-    weight: a.$fw-light;
+    family: v.$ff-sans;
+    weight: v.$fw-light;
   }
 }
 
 body {
-  font-size: a.$ff-size;
+  font-size: v.$ff-size;
   line-height: 1.7;
 }
 
@@ -20,9 +20,9 @@ h1,
 h2,
 h3 {
   line-height: 1;
-  margin-bottom: a.$margin-b;
+  margin-bottom: v.$margin-b;
   font: {
-    family: a.$ff-titles;
+    family: v.$ff-titles;
   }
 }
 
@@ -42,7 +42,7 @@ h2 {
 
 h3 {
   line-height: 1;
-  margin-bottom: a.$margin-b;
+  margin-bottom: v.$margin-b;
   font: {
     size: 2.2em;
   }

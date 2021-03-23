@@ -1,0 +1,13 @@
+// /////////////////////////////
+// @@ PAGE LAYOUT
+// /////////////////////////////
+
+@use "../abstracts" as a;
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+  border: 2px solid map-get(a.$colors, black);
+  height: 100vh;
+  padding: a.$default-padding;
+}
