@@ -52,7 +52,7 @@ function scssTask() {
       })
     )
     .pipe(sourcemaps.write(".")) // write sourcemaps file in dist/css directory
-    .pipe(lineec()) // line ending corrector
+    .pipe(lineec({verbose:true, eolc: 'CRLF', encoding:'utf8'})) // line ending corrector
     .pipe(
       dest(distPath.cssDist) // put final CSS in dist/css folder
     )
