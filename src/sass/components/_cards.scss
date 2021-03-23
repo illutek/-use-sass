@@ -5,5 +5,7 @@
 @use "../abstracts" as a;
 
 .card {
-  background-color: map-get(a.$colors, red);
+  background-color: map-get(a.$colors, green);
+  color: map-get(a.$colors, black);
+  padding: 2rem 3rem;
 }
